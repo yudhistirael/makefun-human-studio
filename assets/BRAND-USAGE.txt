@@ -1,0 +1,64 @@
+make.fun press kit
+Edition 2026-11-02
+
+Press questions and interviews: press@make.fun
+This kit online: https://make.fun/press
+
+Using the mark
+- Use the files as they are. Do not redraw, recolour, stretch, rotate or add effects to the mark or the wordmark.
+- Use the light files on light grounds and the dark files on dark grounds.
+- Keep clear space round the mark and the lockup of at least half the ghost’s height.
+- Show the mark at 16 px tall or more, and the lockup at 32 px tall or more.
+- Write the name in lowercase as make.fun, with the dot, even at the start of a sentence.
+
+The mascot as a token logo
+- To put the mascot on a coin as its logo, use one of these 20 files as it is; all 20 are at https://make.fun/press/. The logo check accepts exactly these, the mascot alone:
+  icon-1024.png, icon-512.png, icon-192.png, icon-96.png, avatar-500.png, apple-touch-icon.png,
+  x/avatar-light-400.png, x/avatar-magenta-400.png, icon-maskable-192.png, icon-maskable-512.png,
+  mark-1024.png, mark-on-dark-1024.png, favicon-32.png, discord/icon-1024.png,
+  discord/icon-animated-512.gif, x/avatar-dark-400.png, x/avatar-face-400.png, icon-monochrome-512.png,
+  mark.svg, mark-on-dark.svg
+- Prefer icon-1024.png, 1024 x 1024 px: it is the largest square rendition, and the size to use when a platform asks for one logo image.
+- The lockups, wordmarks, screenshots, banners and splash screens are not accepted as a token logo: they are compositions, not the mascot alone.
+
+In this kit
+README.txt                                 This note
+boilerplate.txt                            The 50- and 100-word descriptions, and the facts
+palette.txt                                The colours, in Light, Dark and Night
+type.txt                                   The typefaces and where to get them
+mark.svg                                   Mark for light grounds, vector
+mark-on-dark.svg                           Mark for dark grounds, vector
+wordmark.svg                               Wordmark for light grounds, vector
+wordmark-on-dark.svg                       Wordmark for dark grounds, vector
+lockup.svg                                 Lockup for light grounds, vector
+lockup-on-dark.svg                         Lockup for dark grounds, vector
+mark-1024.png                              Mark for light grounds, 1024 x 1024 px
+mark-on-dark-1024.png                      Mark for dark grounds, 1024 x 1024 px
+lockup-2400.png                            Lockup for light grounds, 2400 x 739 px
+lockup-on-dark-2400.png                    Lockup for dark grounds, 2400 x 739 px
+avatar-500.png                             Profile picture, 500 x 500 px
+icon-1024.png                              App icon, 1024 x 1024 px
+icon-512.png                               App icon, 512 x 512 px
+social-1280x640.png                        Social card, 1280 x 640 px
+x/header-crew-1500x500.png                 X header, ghost crew, 1500 x 500 px
+x/header-manifesto-1500x500.png            X header, Build it. Get paid., 1500 x 500 px
+x/header-terminal-1500x500.png             X header, terminal, 1500 x 500 px
+x/header-bounties-1500x500.png             X header, bounty wall, 1500 x 500 px
+x/header-pattern-1500x500.png              X header, pattern, 1500 x 500 px
+x/header-big-ghost-1500x500.png            X header, big ghost, 1500 x 500 px
+x/avatar-dark-400.png                      X profile picture, dark, 400 x 400 px
+x/avatar-magenta-400.png                   X profile picture, magenta, 400 x 400 px
+x/avatar-face-400.png                      X profile picture, close-up, 400 x 400 px
+x/avatar-monogram-400.png                  X profile picture, m., 400 x 400 px
+x/avatar-light-400.png                     X profile picture, light, 400 x 400 px
+discord/icon-1024.png                      Discord server icon, 1024 x 1024 px
+discord/icon-animated-512.gif              Discord server icon, animated, 512 x 512 px
+discord/invite-sky-stage-1920x1080.jpg     Discord invite background, sky stage, 1920 x 1080 px
+discord/invite-night-sky-1920x1080.jpg     Discord invite background, night sky, 1920 x 1080 px
+discord/invite-crew-magenta-1920x1080.jpg  Discord invite background, crew on magenta, 1920 x 1080 px
+discord/invite-aurora-bowl-1920x1080.jpg   Discord invite background, aurora bowl, 1920 x 1080 px
+discord/invite-moon-island-1920x1080.jpg   Discord invite background, moon island, 1920 x 1080 px
+screenshots/board-light.png                Board, Light, 2880 x 1800 px
+screenshots/board-dark.png                 Board, Dark, 2880 x 1800 px
+screenshots/competition-light.png          Competition, Light, 2880 x 1800 px
+screenshots/competition-dark.png           Competition, Dark, 2880 x 1800 px
