@@ -21,3 +21,7 @@ python3 -m http.server 8080
 Created for [Bring the humans](https://make.fun/bounty/bring-the-humans-01). Root `ad.png` is an unedited browser screenshot of this page. AI build sessions are bundled from original Codex logs and uploaded privately with the entry, not committed to this public repository.
 
 Original page code: MIT. The unmodified official logo in `assets/` remains make.fun property and is used under the press-kit brand guidelines in `assets/BRAND-USAGE.txt`; it is excluded from the MIT grant. Bounty examples were verified against the official API on 2026-11-16 and link to their current rules.
+
+## Browser verification
+
+[Original browser run and screenshot artifacts](https://github.com/yudhistirael/makefun-human-studio/actions/runs/43814686664) rendered the submitted page at 1440×1000, 390×844, and 320×740. It checks referral visibility, all make.fun link codes, asset loading, clipboard, FAQ, internal navigation, page overflow, and illustration clipping/overlap. `ad.png` is the unmodified desktop viewport screenshot from that run. The screenshot-only commit leaves the rendered HTML and assets unchanged.
