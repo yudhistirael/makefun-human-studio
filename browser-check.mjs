@@ -34,10 +34,14 @@ try {
       imageFailures:[...document.images].filter(image => !image.complete || !image.naturalWidth).map(image => image.src),
       links:[...document.querySelectorAll('a')].map(a => a.getAttribute('href')),
       referralVisible:(() => {const r=document.querySelector('.referral a').getBoundingClientRect();return r.top>=0&&r.bottom<=innerHeight&&r.left>=0&&r.right<=innerWidth})(),
-      title:document.title
+      title:document.title,
+      illustrationFits:document.querySelector('.sheet h2').scrollWidth <= document.querySelector('.sheet h2').clientWidth,
+      footerClearsSheet:document.querySelector('.studio-bottom').getBoundingClientRect().top > document.querySelector('.sheet').getBoundingClientRect().bottom
     }));
     assert.equal(result.width, result.scrollWidth, `${name}: horizontal overflow`);
     assert.deepEqual(result.imageFailures, [], `${name}: broken assets`);
+    assert.ok(result.illustrationFits, `${name}: illustration text clipped`);
+    assert.ok(result.footerClearsSheet, `${name}: illustration footer overlaps sheet`);
     assert.ok(result.referralVisible, `${name}: referral must be visible in initial viewport`);
     for (const href of result.links) {
       if (href.startsWith('https://make.fun/')) assert.ok(href.includes('mc348h49'), `Referral missing: ${href}`);
@@ -52,7 +56,8 @@ try {
     assert.ok(await page.getByText('Peringkat ditentukan oleh jumlah pendaftaran').isVisible());
     await page.locator('summary').nth(3).click();
     await page.emulateMedia({reducedMotion:'reduce'});
-    await page.locator('a[href="#bounty"]').first().click({force:true}).catch(() => {});
+    await page.locator('.actions a[href="#cara"]').click();
+    assert.equal(new URL(page.url()).hash, '#cara');
     await page.evaluate(() => window.scrollTo(0,0));
     await page.screenshot({path:`evidence/${name}.png`,fullPage:true});
     if(name==='desktop') await page.screenshot({path:'ad.png',fullPage:false});
