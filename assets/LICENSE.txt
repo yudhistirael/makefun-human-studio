@@ -1,0 +1,5 @@
+The make.fun logo in makefun-lockup.svg is an unmodified official brand asset
+from https://make.fun/press/make-fun-press-kit.zip (edition 2026-11-02).
+It remains the property of make.fun and is excluded from this repository's
+MIT license. Its use is subject to BRAND-USAGE.txt in this directory and
+the official make.fun press guidelines. No ownership of the mark is claimed.
